@@ -4,7 +4,7 @@
 
 ### Code Structure
 
-1. **`gradcamExapander.py`**:
+1. **`gradcamexpanded.py`**:
    - Contains a class named `GradCamExpanded`. This script implements a mathematical method used to generate the heatmap
 
 2. **`heatmap.py`**:
