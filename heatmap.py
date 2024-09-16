@@ -1,6 +1,6 @@
 import torch
 import torchvision.models as models
-from gradcam import gradcamexpanded
+from gradcamexpanded import gradcamexpanded
 from image_analysis import imageanalysis
 from process_image import processimage
 
