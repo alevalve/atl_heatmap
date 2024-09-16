@@ -33,3 +33,12 @@ This project aims to develop an algorithm that identifies the parts of an image 
 
 6. **`main.py`**:
    - The main script of the project. It returns the results of the analyses conducted and the feedback from ChatGPT 4 on the heatmap.
+  
+# Examples
+
+<img width="285" alt="Captura de pantalla 2024-09-16 a la(s) 11 41 04 a  m" src="https://github.com/user-attachments/assets/59807e3c-b71f-406f-b5fa-55b2fc6aab90">
+
+<img width="283" alt="Captura de pantalla 2024-09-16 a la(s) 11 40 46 a  m" src="https://github.com/user-attachments/assets/34bf84cf-0564-48d6-872d-8591f42333d0">
+
+
+
