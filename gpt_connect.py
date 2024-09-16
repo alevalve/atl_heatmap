@@ -11,7 +11,7 @@ ssl._create_default_https_context = ssl._create_stdlib_context
 
 class OpenAIHandler:
     def __init__(self):
-        self.api_key = "sk-QENhxRQv55iIdbyrtP5XZBo-Sxp_9ssRGbGoeM2__5T3BlbkFJB4QedOVbhdnIgJO7yeXu7sQb0b-OA1QxvnRXpYaxAA"  # Reemplaza con tu clave API real
+        self.api_key = ""  # Reemplaza con tu clave API real
 
     def encode_image(self, image_path):
         with open(image_path, "rb") as image_file:
