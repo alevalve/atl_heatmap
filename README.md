@@ -2,6 +2,18 @@
 
 ## Implementation
 
+## Project Description:
+This project aims to develop an algorithm that identifies the parts of an image or visual post that are most likely to attract the attention of consumers. The goal is to optimize visual elements, reduce the need for post-launch changes, and understand how a visual is perceived from different positions and distances. The algorithm also generates recommendations for highlighting specific areas of interest.
+
+## Team Members:
+- Alexander Valverde
+
+## Objectives:
+- Develop a recognition model to identify key areas of a post that are of high relevance to consumers, whether seen on the street or on social media.
+- Optimize visual elements to minimize the cost of printing materials that may require changes post-launch.
+- Analyze how the artwork would appear from various positions and distances, identifying elements that remain important regardless of the viewing angle.
+- Provide recommendations on the most important elements of a visual and suggest possible changes to highlight specific areas.
+
 ### Code Structure
 
 1. **`gradcamexpanded.py`**:
