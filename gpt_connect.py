@@ -11,7 +11,7 @@ ssl._create_default_https_context = ssl._create_stdlib_context
 
 class OpenAIHandler:
     def __init__(self):
-        self.api_key = ""  # Reemplaza con tu clave API real
+        self.api_key = ""
 
     def encode_image(self, image_path):
         with open(image_path, "rb") as image_file:
@@ -50,5 +50,5 @@ class OpenAIHandler:
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
         response_json = response.json()
 
-        # Asumiendo que la respuesta contiene una lista de 'choices' con un campo 'message' y 'content'
+
         return response_json.get('choices', [{}])[0].get('message', {}).get('content', '')
